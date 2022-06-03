@@ -4,3 +4,5 @@ const vibes = [
   "... and you've got this!",
   "... and so am I!"
 ];
+
+var vibe = vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
